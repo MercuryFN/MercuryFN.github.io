@@ -1,0 +1,104 @@
+ .u-section-1 {
+  background-image: url("media/ChristmasTree1920x1080.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1 .u-text-1 {
+  font-family: Oswald;
+  font-size: 6rem;
+  margin: 315px auto 0 395px;
+}
+
+.u-section-1 .u-text-2 {
+  --animation-slide_in_down-translate_y: -70px;
+  font-family: Oswald;
+  background-image: none;
+  margin: 21px auto 0 160px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 66px;
+  height: 51px;
+  transition-duration: 0.5s;
+  margin: 46px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 350px;
+    margin-left: 426px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -14px;
+    margin-left: 260px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-right: 20px;
+    transform: translateX(0px) translateY(-5px) scale(1);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 315px;
+    margin-left: 326px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 21px;
+    margin-left: 199px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-top: 350px;
+    margin-left: 488px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: -14px;
+    margin-left: 460px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 365px;
+    margin-right: 220px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 1.875rem;
+    margin-top: 315px;
+    margin-left: 518px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 21px;
+    margin-left: 501px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-right: 320px;
+  }
+}
+
+.u-section-1 .u-image-1,
+.u-section-1 .u-image-1:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, background-size, background-position;
+}
+
+.u-section-1 .u-image-1.u-image-1.u-image-1:hover {
+  transform: translateX(0px) translateY(-5px) scale(1) !important;
+}
+
+.u-section-1 .u-image-1.u-image-1.u-image-1.hover {
+  transform: translateX(0px) translateY(-5px) scale(1) !important;
+}
